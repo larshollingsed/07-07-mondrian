@@ -15,6 +15,17 @@ function yellow_button() {
   update_brush_display();
 };
 
+function green_button() {
+  brush = "green";
+  update_brush_display();
+};
+
+function purple_button() {
+  brush = "purple";
+  update_brush_display();
+};
+
+
 function update_brush_display() {
   document.getElementById("brush_color").style.background = brush;
 }
@@ -22,6 +33,8 @@ function update_brush_display() {
 document.getElementById("red_button").onclick = red_button;
 document.getElementById("blue_button").onclick = blue_button;
 document.getElementById("yellow_button").onclick = yellow_button;
+document.getElementById("green_button").onclick = green_button;
+document.getElementById("purple_button").onclick = purple_button;
 
 document.getElementById("one").onclick = change_color_one;
 
