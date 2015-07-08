@@ -71,3 +71,13 @@ button#yellow_button {
   height: 100%;
   background: transparent;
 }
+
+div.part {
+  border: 1px solid grey;
+}
+
+div.part {
+  display: inline-block;
+  height: 160px;
+  width: 125px;
+}
