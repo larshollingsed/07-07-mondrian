@@ -1,0 +1,63 @@
+div#color_column {
+  position: relative;
+  float: left;
+  width: 100px;
+  height: 500px;
+  border-right: 4px black solid;
+  background: lightgrey;
+}
+
+div#canvas {
+  float: left;
+  width: 400px;
+  height: 500px;
+  border: 1px grey solid;
+}
+
+div#red {
+  position: relative;
+  width: 40px;
+  height: 40px;
+  border: 1px black solid;
+  background: red;
+  top: 50px;
+  left: 25px;
+}
+
+button#red_button {
+  width: 100%;
+  height: 100%;
+  background: transparent;
+}
+
+div#blue {
+  position: relative;
+  width: 40px;
+  height: 40px;
+  border: 1px black solid;
+  background: blue;
+  top: 150px;
+  left: 25px;
+}
+
+div#yellow {
+  position: relative;
+  width: 40px;
+  height: 40px;
+  border: 1px black solid;
+  background: yellow;
+  top: 250px;
+  left: 25px;
+}
+
+button#blue_button {
+  width: 100%;
+  height: 100%;
+  background: transparent;
+}
+
+button#yellow_button {
+  width: 100%;
+  height: 100%;
+  background: transparent;
+}
