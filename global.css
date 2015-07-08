@@ -14,6 +14,16 @@ div#canvas {
   border: 1px grey solid;
 }
 
+div#brush_color {
+  background: white;
+  height: 20px;
+  width: 60px;
+  border: 2px black solid;
+  position: relative;
+  left: 15px;
+  top: 350px;
+}
+
 div#red {
   position: relative;
   width: 40px;
